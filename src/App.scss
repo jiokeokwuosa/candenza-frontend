@@ -1,0 +1,62 @@
+.app {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    min-height: 100vh;
+    padding: 20px;
+
+    .wrapper {
+        width: 600px;
+        padding: 40px;
+        background: white;
+        margin: 200px auto 200px auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+   li {
+        padding: 8px 6px;
+        background: #f4f4f4;
+        color: green;
+        margin-bottom: 3px;
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    input{
+        padding: 9px 7px;
+        width: 53%;
+    }
+    .loadingIcon{
+        margin-top: 6px;
+    }
+    ul {
+        width: 80%;
+        background: white;
+        margin: auto;
+        margin-top: 29px;
+        border-radius: 6px;
+        box-shadow: 3px 3px red, -0.5em 0 0.4em olive;
+    }
+    a{
+        display: block;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+}
